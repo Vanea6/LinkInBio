@@ -1,4 +1,4 @@
-html { background: black url(backround.jpg) center center no-repeat; background-size: cover; color: white; }
+html { background: black url("backround.jpg") center center no-repeat; background-size: cover; color: white; }
 
 body { display: block; place-items: center; margin: 0; font-family: Inter, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5em; }
 @media (min-width: 700px) { body {display: grid; } }
@@ -20,6 +20,6 @@ body { display: block; place-items: center; margin: 0; font-family: Inter, Helve
               .ListaLink:hover { background: white; color: black;}
                   .ListaTitlu, .ListaText { display: block; margin: 0; padding: 0; font-size: 1em; line-height: 1.5em; }
                   .ListaText { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-      @media (min-width: 1700px) { .ListaLinkuri {display: grid; grid-template-columns: 1fr 1fr;} }
-
-
+      @media (min-width: 1700px) {
+         .ListaLinkuri {display: grid; grid-template-columns: 1fr 1fr;} 
+            }
