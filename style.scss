@@ -15,6 +15,7 @@ body { display: block; place-items: center; margin: 0; font-family: Inter, Helve
         } 
 
         .TitlulPaginii { display: block; margin: 0; font-size: clamp(2rem, 6vw, 4rem); line-height: 1em; }
+        .SubtitlulPaginii { display: block; margin: 0; font-size: clamp(1rem, 2vw, 2rem); font-weight: 100; line-height: 1em; }
         .DescrierePrincipala { display: block; margin: 0.5em 0 1.5em 0;
             @media (min-width: 500px) { margin-bottom: 0.5em; }
         } 
