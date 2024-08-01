@@ -8,11 +8,13 @@ body { display: block; place-items: center; margin: 0; font-family: Inter, Helve
     @media (min-width: 300px) {  margin: 2vh; padding: 2rem; border-radius: 2rem; }
     @media (min-width: 500px) {  margin: 7vw; padding: 3rem; } 
 }
-    header {  }
-        .Avatar { display: block; width: 112px; height: auto; margin: 0 1em 1em 0; border-radius: 50%;
+    header { display: block; }
+        .Avatar { display: block;  width: 112px; margin: 0 1em 1em 0;
             @media (min-width: 380px) { float: left; }
             @media (min-width: 930px) { width: clamp(112px, 14vw, 12rem); }
         } 
+        .Avatar img { display: block; width: 100%; height: auto; border-radius: 50%; }
+
 
         .TitlulPaginii { display: block; margin: 0; font-size: clamp(2rem, 6vw, 4rem); line-height: 1em; }
         .SubtitlulPaginii { display: block; margin: 0; font-size: clamp(1rem, 2vw, 2rem); font-weight: 100; line-height: 1em; }
