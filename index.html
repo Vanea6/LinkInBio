@@ -56,22 +56,37 @@
     <body itemscope="" itemtype="https://schema.org/ProfilePage">
         <div class="Container" itemscope="" itemtype="https://schema.org/Person">
             <header>
+                <!--@TODO-->
                 <picture class="Avatar">
+                    <source
+                      srcset="viorel-mocanu-192.webp"
+                      media="(min-width: 930px)"  type="image/webp"
+                      width="clamp(112px, 14vw, 12rem)"  height="auto">
+                    <source
+                      srcset="viorel-mocanu-112.webp"
+                      media="(max-width: 929px)" type="image/webp"
+                      width="112"  height="auto">
+                        <img 
+                         src="./viorel-mocanu-112.jpg" alt="Imagine de profil pentru Viorel Mocanu" loading="lazy" decoding="async" width="112" height="112" itemprop="image" />
+                </picture>
+
+                <!--<picture class="Avatar">
 					<source type="image/webp" srcset="
 					viorel-mocanu-112.webp 112w,
 					viorel-mocanu-192.webp 192w
-					" sizes="
+					" 
+                    sizes="
 					(max-width: 929px) 112px,
-					(min-width: 930px) clamp(130px, 14vw, 12rem)
+					(min-width: 930px) clamp(112px, 14vw, 12rem)
 					" />
 					<img srcset="
 					viorel-mocanu-112.jpg 112w,
 					viorel-mocanu-192.jpg 192w
 					" sizes="
 					(max-width: 929px) 112px,
-					(min-width: 930px) clamp(130px, 14vw, 12rem)
+					(min-width: 930px) clamp(112px, 14vw, 12rem)
 					" src="./viorel-mocanu-112.jpg" alt="Imagine de profil pentru Viorel Mocanu" loading="lazy" decoding="async" width="112" height="112" itemprop="image" />
-				</picture>
+				</picture>-->
                 <h1 class="TitlulPaginii">
                     <strong itemprop="name">Viorel Mocanu</strong>
                 </h1>
